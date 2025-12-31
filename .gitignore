@@ -73,3 +73,6 @@ slurm-trash/
 
 # Logs
 *.log
+
+# Shell scripts
+*.sh
