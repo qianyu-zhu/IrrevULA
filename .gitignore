@@ -1,0 +1,75 @@
+# Data files
+*.npy
+*.pkl
+*.pickle
+*.csv
+*.h5
+*.hdf5
+*.mat
+*.json
+*.parquet
+
+# Results directories
+**/results/
+
+# Date-named result directories (lowercase: mar_17, feb_28)
+**/jan_*/
+**/feb_*/
+**/mar_*/
+**/apr_*/
+**/may_*/
+**/jun_*/
+**/jul_*/
+**/aug_*/
+**/sep_*/
+**/oct_*/
+**/nov_*/
+**/dec_*/
+
+# Date-named result directories (uppercase: Mar_17, Feb_28)
+**/Jan_*/
+**/Feb_*/
+**/Mar_*/
+**/Apr_*/
+**/May_*/
+**/Jun_*/
+**/Jul_*/
+**/Aug_*/
+**/Sep_*/
+**/Oct_*/
+**/Nov_*/
+**/Dec_*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environment
+MCMC_env/
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# SLURM
+slurm-*.out
+slurm-trash/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
