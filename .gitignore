@@ -76,3 +76,19 @@ slurm-trash/
 
 # Shell scripts
 *.sh
+
+
+# test files
+exp1_ellipse/py/
+
+
+# Plotting outputs
+plottings/
+
+# Claude Code
+.claude/
+
+# Other folders
+py/
+sh/
+unitary/
